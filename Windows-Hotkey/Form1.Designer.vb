@@ -62,22 +62,22 @@ Partial Class Form1
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Checked = True
         Me.RadioButton1.Location = New System.Drawing.Point(15, 34)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(52, 17)
         Me.RadioButton1.TabIndex = 2
+        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Keine"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Checked = True
         Me.RadioButton2.Location = New System.Drawing.Point(15, 57)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(101, 17)
         Me.RadioButton2.TabIndex = 3
-        Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Shift / Umschalt"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
@@ -112,13 +112,13 @@ Partial Class Form1
         '
         'ComboBox1
         '
+        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"BACKSPACE", "DELETE", "ENTER", "ESC", "HOME", "INSERT", "TAB", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "F13", "F14", "F15", "F16"})
         Me.ComboBox1.Location = New System.Drawing.Point(131, 33)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(156, 21)
         Me.ComboBox1.TabIndex = 7
-        Me.ComboBox1.Text = "F9"
         '
         'Label2
         '
