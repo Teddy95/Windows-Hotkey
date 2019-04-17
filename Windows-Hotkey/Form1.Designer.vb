@@ -134,9 +134,9 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(128, 65)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(125, 13)
+        Me.Label3.Size = New System.Drawing.Size(127, 13)
         Me.Label3.TabIndex = 9
-        Me.Label3.Text = "Zeitinterval in Sekunden:"
+        Me.Label3.Text = "Zeitintervall in Sekunden:"
         '
         'NumericUpDown1
         '

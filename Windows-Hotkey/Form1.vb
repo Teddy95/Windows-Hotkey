@@ -1,4 +1,5 @@
 ﻿Imports System.ComponentModel
+Imports Windows_Hotkey.Utils
 
 Public Class Form1
     Dim send = False
@@ -76,7 +77,8 @@ Public Class Form1
         System.Threading.Thread.Sleep(10000) ' 10 Sekunden warten, bevor der erste Tastenbefehl simuliert wird
 
         While send
-            SendKeys.SendWait(key)
+            'SendKeys.SendWait(key)
+            SendKeysPlus.SendWait(key, SendKeysPlus.ScanCodeModes.Make)
             System.Threading.Thread.Sleep(interval) ' Taste simulieren im festgelegten Zeitinterval
         End While
     End Sub
